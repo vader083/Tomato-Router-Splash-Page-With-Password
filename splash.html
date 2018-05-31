@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
     
-	<title>Free Wifi Sign In</title>
+	<title>McCullough WiFi</title>
 
 	<!-- Google Fonts
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900" rel="stylesheet" type="text/css">
@@ -18,16 +18,12 @@
 <body>
 	<div class="container">
 		<div class="top">
-			<h1 id="title" class="hidden"><span id="logo">companyname</span></h1>
+			<h1 id="title" class="hidden"><span id="logo">Enter At Your Own Risk!</span></h1>
 		</div>
 		<div class="login-box animated fadeInUp">
 			<div class="box-header">
-				<h2>Log In</h2>
+				<h2>Try Me!</h2>
 			</div>
-			<label for="username">Username</label>
-			<br/>
-			<input type="text" id="username">
-			<br/>
 			<label for="password">Password</label>
 			<br/>
 			<input type="password" id="password">
@@ -49,12 +45,6 @@
     	$('#logo').addClass('animated fadeInDown');
     	$("input:text:visible:first").focus();
 	});
-	$('#username').focus(function() {
-		$('label[for="username"]').addClass('selected');
-	});
-	$('#username').blur(function() {
-		$('label[for="username"]').removeClass('selected');
-	});
 	$('#password').focus(function() {
 		$('label[for="password"]').addClass('selected');
 	});
@@ -63,7 +53,7 @@
 	});
 	$("#button").click( function()
            {
-			   if($("#password").val() == 'demousername' && $("#username").val() == 'demopassword'){  $( "#target" ).submit();}
+			   if($("#password").val() == 'oldmill'){  $( "#target" ).submit();}
            }
       );
 </script>
